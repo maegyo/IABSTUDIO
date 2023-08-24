@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Raleway;
+  color: white;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.form-wrap {
+  background-color: white;
+  color: #333;
+  padding: 15px 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+
+label {
+  color: black;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#used-id {
+  text-align: left;
+  background: url(../images/p_images/id.jpg) no-repeat right;
+}
+#password {
+  background: url(../images/p_images/key1.jpg) no-repeat right;
+}
+
+#password2 {
+  background: url(../images/p_images/key2.jpg) no-repeat right;
+}
+
+div > input {
+  width: 33%;
+}
+
+div > option {
+  border
+  : 1px solid black;
+}
+
+#phoneNo {
+  width: 290px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  color: white;
+  background-color: rgb(26, 26, 149);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.tel-btn {
+  padding: 9px;
+  background-color: rgb(26, 26, 149);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn {
+  font-size: large;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+#mm {
+ width: 128px;
+ padding: 10px;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ margin-bottom: 20px;
+}
+
+#gender {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#nationNo {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.bottom-text {
+  margin-top: 30px;
+}

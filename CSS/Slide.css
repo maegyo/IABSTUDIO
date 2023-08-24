@@ -1,0 +1,27 @@
+#slideShow {   
+  width:670px;    /* 너비 */ 
+  height:700px;   /* 높이 */ 
+  overflow:hidden;   /* 영역 넘치면 감춤 */ 
+  float: left;
+}
+#slides {
+  position: absolute;
+}
+#slides > img {
+  width: 670px;  /* 너비 */
+  float:left;  /* 가로로 배치 */
+}
+
+#slideShow2 {   
+  width:670px;    /* 너비 */ 
+  height:700px;   /* 높이 */ 
+  overflow:hidden;   /* 영역 넘치면 감춤 */ 
+  float: left;
+}
+#slides2 {
+  position: absolute;
+}
+#slides2 > img {
+  width: 670px;  /* 너비 */
+  float:left;  /* 가로로 배치 */
+}

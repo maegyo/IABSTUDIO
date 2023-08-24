@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin :0; 
+  padding: 0; 
+  height: 100%;
+}
+ul, li { 
+  list-style: none; 
+  margin: 0;
+  padding: 0; 
+}
+a { 
+  display :block; 
+  text-decoration: none; 
+}
+
+#container {
+  width: 1400px; 
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  width: 100%; 
+  height: 130px; 
+  align-items: center; 
+  padding: 0 20px 0 120px; 
+  box-sizing: border-box; 
+  position: relative; 
+  display: flex;
+  font-size: 1.4em;
+}
+header h1 {
+  width: 300px; 
+  height: 120px; 
+/* margin-right: auto;  */
+}
+header h1 a { 
+  width: 300px; 
+  height: 100px; 
+  background: url(../images/p_images/logo.png) no-repeat 50%; 
+  background-size:contain; 
+}
+
+header ul {
+  width: 730px; 
+  /* position: absolute; 
+  top:50%; left:50%;  */
+  display: flex; 
+  /* transform: translateX(-45%) translateY(-50%); */
+  justify-content: space-between; 
+  align-items: center; 
+}
+header ul li {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: bold; 
+}
+
+#sub-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  display : none;
+  list-style-type: none;
+  /* position : absolute; */
+}
+#login {
+  height: 160px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  }
+.utillR {
+  width: 255px;
+}
+.utillR li{
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.center {
+  padding: 0px 0px 3px 0px;
+}
+/* #main-menu li a:hover #sub-menu {
+  display: block;
+} */
+
+/* Section */
+#main { 
+  width: 100%; 
+  margin: 0 auto;
+}
+
+  .title {
+    width: 1400px; 
+    padding-top: 50px;
+  }
+  
+  .directors {
+    width:100%; 
+    height: 900px; 
+  }
+
+ .iab {
+  text-align: center;
+  font-family:'Black Han Sans', 산세리프;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 150px;
+}
+ .content {
+  border: 1px solid transparent;
+  width: 100%;
+  height: 530px;
+  margin-bottom: 150px;
+ }
+
+h2 { 
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.mtm {
+  width: 33%; 
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  font-family: "맑은 고딕";
+  border: 1px solid transparent;
+  float: left;
+}
+
+.mtm img {
+  padding-top: 30px; padding-left: 30px; padding-right: 30px;
+}
+
+.hoodie {
+  width: 33%; 
+  height: 400px;
+  margin: 0 auto;
+  font-family: "맑은 고딕";
+  border: 1px solid transparent;
+  float: left;
+}
+
+.hoodie img {
+  padding-top: 30px; padding-left: 30px; padding-right: 30px;
+}
+
+.acc {
+  width: 33%; 
+  height: 400px;
+  margin: 0 auto;
+  font-family: "맑은 고딕";
+  border: 1px solid transparent;
+  float: left;
+}
+
+.acc img {
+  padding-top: 30px; padding-left: 30px; padding-right: 30px;
+}
+
+.item {
+  margin: 20px;
+  width: 33%;
+  font-size: medium;
+}
+hr {
+  border: 1px solid transparent;
+}
+
+/* footer */
+footer { 
+  width: 1400px; 
+  height: 170px;
+  margin: 0 auto;
+  display:flex; 
+  align-items:flex-start; 
+  padding: 20px; 
+  box-sizing:border-box; 
+  color:#222; 
+  background-color:#fff; 
+  position:relative; 
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+footer img {  
+  width: 170px; 
+  height: 130px; 
+  background: no-repeat; 
+  background-size: cover;  
+}
+footer ul {
+  margin-left: 30px;
+  padding-right: 100px;
+  float: left;
+}
+footer p {
+  margin:0 auto; 
+  padding: 0 50px 0 100px;
+  line-height:1.6;
+ }
+
